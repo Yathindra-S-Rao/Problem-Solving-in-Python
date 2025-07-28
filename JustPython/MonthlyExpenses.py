@@ -1,12 +1,12 @@
 # Monthly Expenses
 
 expense_dict = {
-    "Home Rent" : None,
-    "Electricity" : None,
-    "Water" : None,
-    "Cable" : None,
-    "Act" : None,
-    "Other" : None
+    "Home Rent": None,
+    "Electricity": None,
+    "Water": None,
+    "Cable": None,
+    "Act": None,
+    "Other": None
 }
 
 sharing_percentage_dict = {
@@ -26,4 +26,3 @@ print(expense_dict)
 print("Expense_Report")
 print("=====================")
 print("Viji's")
-
