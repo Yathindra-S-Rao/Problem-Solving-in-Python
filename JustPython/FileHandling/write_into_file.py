@@ -1,4 +1,5 @@
 import requests
+import json
 
 BASE_URL = 'https://gorest.co.in/public/v2/users'
 
@@ -8,6 +9,5 @@ def get_users():
 
 
 with open('response.txt', 'w') as file:
-    file.write(str(get_users().json()))
-
-
+    data = json.dumps(get_users().json(), indent=4)
+    file.write(str(data))
